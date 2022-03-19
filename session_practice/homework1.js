@@ -5,8 +5,8 @@
 
 console.log("Calling some function 5 times every 2 secs.");
 let callNumber = 1
-function theHomeworkFunction(){
-    console.log("This is the Homework Function, call #"+ callNumber)
+function theHomeworkFunction() {
+    console.log("This is the Homework Function, call #" + callNumber)
     callNumber++
 }
 
@@ -28,4 +28,4 @@ var intervalId = setInterval(theHomeworkFunction, 2000);
 setTimeout(() => {
     clearInterval(intervalId);
     console.log("Interval cleared. Thank you!!!");
-},11000);
+}, 11000);
